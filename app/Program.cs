@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace app
 {
@@ -19,10 +20,10 @@ namespace app
             Console.WriteLine($"Method => CountOfLettersUsingLinqGroupByStringJoin(), Input => {value}, Output => {output}");
             output = CountOfLettersUsingLinqGroupByTupleStringJoin(value);
             Console.WriteLine($"Method => CountOfLettersUsingLinqGroupByTupleStringJoin(), Input => {value}, Output => {output}");
+            output = CountOfLettersUsingRegex(value);
+            Console.WriteLine($"Method => CountOfLettersUsingRegex(), Input => {value}, Output => {output}");
             output = CountOfLettersUsingDictionaryWithStringBuilder(value);
             Console.WriteLine($"Method => CountOfLettersUsingDictionaryWithStringBuilder(), Input => {value}, Output => {output}");
-            output = CountOfLettersUsingRegexWithStringBuilder(value);
-            Console.WriteLine($"Method => CountOfLettersUsingRegexWithStringBuilder(), Input => {value}, Output => {output}");
             Console.WriteLine("\r\nPress any key to Exit");
         }
 
@@ -37,13 +38,15 @@ namespace app
             {
                 if (previous == null) { ++count; previous = current; }
                 else if (previous == current) { ++count; }
-                else if (previous != current || count == 1)
+                else if (previous != current)
                 {
                     sb.Append($"{previous}{count}");
                     previous = current;
                     count = 1;
                 }
             }
+            // Add last counted char as well
+            sb.Append($"{previous}{count}");
             return sb.ToString();
         }
 
@@ -63,6 +66,8 @@ namespace app
                     count = 1;
                 }
             }
+            // Yield last counted char as well
+            yield return new Tuple<char, int>((char)previous, count);
         }
 
         private static string CountOfLettersUsingLinqGroupByStringJoin(string value)
@@ -85,14 +90,16 @@ namespace app
             return string.Join("", grouping);
         }
 
-        private static string CountOfLettersUsingDictionaryWithStringBuilder(string value)
+        private static string CountOfLettersUsingRegex(string value)
         {
             if (string.IsNullOrEmpty(value) || string.IsNullOrWhiteSpace(value)) return string.Empty;
-            StringBuilder sb = new StringBuilder();
-            return sb.ToString();
+            return Regex.Replace(value, @"(\D)\1*", m =>
+            {
+                return $"{m.Groups[1].Value[0]}{m.Groups[0].Value.Length}";
+            });
         }
 
-        private static string CountOfLettersUsingRegexWithStringBuilder(string value)
+        private static string CountOfLettersUsingDictionaryWithStringBuilder(string value)
         {
             if (string.IsNullOrEmpty(value) || string.IsNullOrWhiteSpace(value)) return string.Empty;
             StringBuilder sb = new StringBuilder();

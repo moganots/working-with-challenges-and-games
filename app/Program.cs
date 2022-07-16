@@ -31,10 +31,9 @@ namespace app
         {
             if (string.IsNullOrEmpty(value) || string.IsNullOrWhiteSpace(value)) return string.Empty;
             StringBuilder sb = new StringBuilder();
-            char[] valueChars = value?.ToCharArray();
             char? previous = null;
             var count = 0;
-            foreach (char current in valueChars)
+            foreach (char current in value?.ToCharArray())
             {
                 if (previous == null) { ++count; previous = current; }
                 else if (previous == current) { ++count; }
@@ -52,10 +51,9 @@ namespace app
 
         private static IEnumerable<Tuple<char, int>> CountOfLettersUsingForLoopWithYieldTuple(string value)
         {
-            char[] valueChars = value?.ToCharArray();
             char? previous = null;
             var count = 0;
-            foreach (char current in valueChars)
+            foreach (char current in value?.ToCharArray())
             {
                 if (previous == null) { ++count; previous = current; }
                 else if (previous == current) { ++count; }

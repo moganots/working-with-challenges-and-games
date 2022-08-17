@@ -26,7 +26,7 @@ void Main()
 			"ValidateAnIpAddress",
 			"LicenseKeyFormatting",
 			"FindLargestWordInDictionary",
-			"EqualZero,One,AndTwo",
+			"EqualZeroOneAndTwo",
 			"FindAndReplaceInString",
 			"AddBinaryStrings",
 			"SumOfTwoLargeNumbers",

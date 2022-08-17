@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32602.291
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "app", "app\app.csproj", "{AC8CB913-F4D6-4FFF-AF28-78FED6AC44B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib", "lib\lib.csproj", "{F5768BAF-39D5-403C-B3D2-4EB209F5D202}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lib", "lib\lib.csproj", "{F5768BAF-39D5-403C-B3D2-4EB209F5D202}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ms-tests", "tests\ms-tests\ms-tests.csproj", "{492F64B1-7BB1-4AD3-A568-BAFE11EA4538}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F5768BAF-39D5-403C-B3D2-4EB209F5D202}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5768BAF-39D5-403C-B3D2-4EB209F5D202}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5768BAF-39D5-403C-B3D2-4EB209F5D202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{492F64B1-7BB1-4AD3-A568-BAFE11EA4538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{492F64B1-7BB1-4AD3-A568-BAFE11EA4538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{492F64B1-7BB1-4AD3-A568-BAFE11EA4538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{492F64B1-7BB1-4AD3-A568-BAFE11EA4538}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

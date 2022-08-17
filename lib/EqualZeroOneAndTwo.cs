@@ -7,18 +7,18 @@ using System.Text.RegularExpressions;
 namespace lib
 {
     /***************************************************************************************************************************************************
-     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IEqualZero,One,AndTwo interface
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IEqualZeroOneAndTwo interface
      ***************************************************************************************************************************************************/
-    public interface IEqualZero,One,AndTwo
+    public interface IEqualZeroOneAndTwo
     {
 
     }
 
     /***************************************************************************************************************************************************
-     * Provides implementation(s) for the methods, properties, indexers, and events for the IEqualZero,One,AndTwo interface
+     * Provides implementation(s) for the methods, properties, indexers, and events for the IEqualZeroOneAndTwo interface
      ***************************************************************************************************************************************************/
-    public class EqualZero,One,AndTwo : IEqualZero,One,AndTwo
+    public class EqualZeroOneAndTwo : IEqualZeroOneAndTwo
     {
-		public EqualZero,One,AndTwo(){}
+		public EqualZeroOneAndTwo(){}
     }
 }

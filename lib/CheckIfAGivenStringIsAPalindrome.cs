@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class CheckIfAGivenStringIsAPalindrome
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the ICheckIfAGivenStringIsAPalindrome interface
+     ***************************************************************************************************************************************************/
+    public interface ICheckIfAGivenStringIsAPalindrome
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the ICheckIfAGivenStringIsAPalindrome interface
+     ***************************************************************************************************************************************************/
+    public class CheckIfAGivenStringIsAPalindrome : ICheckIfAGivenStringIsAPalindrome
     {
 		public CheckIfAGivenStringIsAPalindrome(){}
     }

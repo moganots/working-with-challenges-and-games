@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class ReverseWordsInAGivenString
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IReverseWordsInAGivenString interface
+     ***************************************************************************************************************************************************/
+    public interface IReverseWordsInAGivenString
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the IReverseWordsInAGivenString interface
+     ***************************************************************************************************************************************************/
+    public class ReverseWordsInAGivenString : IReverseWordsInAGivenString
     {
 		public ReverseWordsInAGivenString(){}
     }

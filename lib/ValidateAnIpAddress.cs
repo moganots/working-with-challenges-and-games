@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class ValidateAnIpAddress
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IValidateAnIpAddress interface
+     ***************************************************************************************************************************************************/
+    public interface IValidateAnIpAddress
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the IValidateAnIpAddress interface
+     ***************************************************************************************************************************************************/
+    public class ValidateAnIpAddress : IValidateAnIpAddress
     {
 		public ValidateAnIpAddress(){}
     }

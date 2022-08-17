@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class InterleavedStrings
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IInterleavedStrings interface
+     ***************************************************************************************************************************************************/
+    public interface IInterleavedStrings
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the IInterleavedStrings interface
+     ***************************************************************************************************************************************************/
+    public class InterleavedStrings : IInterleavedStrings
     {
 		public InterleavedStrings(){}
     }

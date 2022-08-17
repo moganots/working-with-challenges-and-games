@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class FindTheLongestPalindromicSubstringInString
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IFindTheLongestPalindromicSubstringInString interface
+     ***************************************************************************************************************************************************/
+    public interface IFindTheLongestPalindromicSubstringInString
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the IFindTheLongestPalindromicSubstringInString interface
+     ***************************************************************************************************************************************************/
+    public class FindTheLongestPalindromicSubstringInString : IFindTheLongestPalindromicSubstringInString
     {
 		public FindTheLongestPalindromicSubstringInString(){}
     }

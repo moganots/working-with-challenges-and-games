@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class ConvertAByteArrayToString
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IConvertAByteArrayToString interface
+     ***************************************************************************************************************************************************/
+    public interface IConvertAByteArrayToString
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the IConvertAByteArrayToString interface
+     ***************************************************************************************************************************************************/
+    public class ConvertAByteArrayToString : IConvertAByteArrayToString
     {
 		public ConvertAByteArrayToString(){}
     }

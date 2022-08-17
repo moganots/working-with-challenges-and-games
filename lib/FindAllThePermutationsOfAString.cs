@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class FindAllThePermutationsOfAString
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IFindAllThePermutationsOfAString interface
+     ***************************************************************************************************************************************************/
+    public interface IFindAllThePermutationsOfAString
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the IFindAllThePermutationsOfAString interface
+     ***************************************************************************************************************************************************/
+    public class FindAllThePermutationsOfAString : IFindAllThePermutationsOfAString
     {
 		public FindAllThePermutationsOfAString(){}
     }

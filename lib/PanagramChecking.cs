@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class PanagramChecking
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IPanagramChecking interface
+     ***************************************************************************************************************************************************/
+    public interface IPanagramChecking
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the IPanagramChecking interface
+     ***************************************************************************************************************************************************/
+    public class PanagramChecking : IPanagramChecking
     {
 		public PanagramChecking(){}
     }

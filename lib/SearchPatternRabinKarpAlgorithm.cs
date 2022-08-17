@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class SearchPatternRabinKarpAlgorithm
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the ISearchPatternRabinKarpAlgorithm interface
+     ***************************************************************************************************************************************************/
+    public interface ISearchPatternRabinKarpAlgorithm
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the ISearchPatternRabinKarpAlgorithm interface
+     ***************************************************************************************************************************************************/
+    public class SearchPatternRabinKarpAlgorithm : ISearchPatternRabinKarpAlgorithm
     {
 		public SearchPatternRabinKarpAlgorithm(){}
     }

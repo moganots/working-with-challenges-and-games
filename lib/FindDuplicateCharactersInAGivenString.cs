@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class FindDuplicateCharactersInAGivenString
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IFindDuplicateCharactersInAGivenString interface
+     ***************************************************************************************************************************************************/
+    public interface IFindDuplicateCharactersInAGivenString
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the IFindDuplicateCharactersInAGivenString interface
+     ***************************************************************************************************************************************************/
+    public class FindDuplicateCharactersInAGivenString : IFindDuplicateCharactersInAGivenString
     {
 		public FindDuplicateCharactersInAGivenString(){}
     }

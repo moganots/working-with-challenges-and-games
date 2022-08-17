@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class EqualPointInAStringOfBrackets
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IEqualPointInAStringOfBrackets interface
+     ***************************************************************************************************************************************************/
+    public interface IEqualPointInAStringOfBrackets
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the IEqualPointInAStringOfBrackets interface
+     ***************************************************************************************************************************************************/
+    public class EqualPointInAStringOfBrackets : IEqualPointInAStringOfBrackets
     {
 		public EqualPointInAStringOfBrackets(){}
     }

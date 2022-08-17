@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class FindTheNthCharacter
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IFindTheNthCharacter interface
+     ***************************************************************************************************************************************************/
+    public interface IFindTheNthCharacter
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the IFindTheNthCharacter interface
+     ***************************************************************************************************************************************************/
+    public class FindTheNthCharacter : IFindTheNthCharacter
     {
 		public FindTheNthCharacter(){}
     }

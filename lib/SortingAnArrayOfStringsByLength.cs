@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class SortingAnArrayOfStringsByLength
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the ISortingAnArrayOfStringsByLength interface
+     ***************************************************************************************************************************************************/
+    public interface ISortingAnArrayOfStringsByLength
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the ISortingAnArrayOfStringsByLength interface
+     ***************************************************************************************************************************************************/
+    public class SortingAnArrayOfStringsByLength : ISortingAnArrayOfStringsByLength
     {
 		public SortingAnArrayOfStringsByLength(){}
     }

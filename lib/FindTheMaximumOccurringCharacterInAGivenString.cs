@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class FindTheMaximumOccurringCharacterInAGivenString
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IFindTheMaximumOccurringCharacterInAGivenString interface
+     ***************************************************************************************************************************************************/
+    public interface IFindTheMaximumOccurringCharacterInAGivenString
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the IFindTheMaximumOccurringCharacterInAGivenString interface
+     ***************************************************************************************************************************************************/
+    public class FindTheMaximumOccurringCharacterInAGivenString : IFindTheMaximumOccurringCharacterInAGivenString
     {
 		public FindTheMaximumOccurringCharacterInAGivenString(){}
     }

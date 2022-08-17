@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class FindingTheFirstNonRepeatedCharacter
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IFindingTheFirstNonRepeatedCharacter interface
+     ***************************************************************************************************************************************************/
+    public interface IFindingTheFirstNonRepeatedCharacter
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the IFindingTheFirstNonRepeatedCharacter interface
+     ***************************************************************************************************************************************************/
+    public class FindingTheFirstNonRepeatedCharacter : IFindingTheFirstNonRepeatedCharacter
     {
 		public FindingTheFirstNonRepeatedCharacter(){}
     }

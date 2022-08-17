@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class IsomorphicStrings
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IIsomorphicStrings interface
+     ***************************************************************************************************************************************************/
+    public interface IIsomorphicStrings
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the IIsomorphicStrings interface
+     ***************************************************************************************************************************************************/
+    public class IsomorphicStrings : IIsomorphicStrings
     {
 		public IsomorphicStrings(){}
     }

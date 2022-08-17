@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class RestrictiveCandyCrush
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IRestrictiveCandyCrush interface
+     ***************************************************************************************************************************************************/
+    public interface IRestrictiveCandyCrush
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the IRestrictiveCandyCrush interface
+     ***************************************************************************************************************************************************/
+    public class RestrictiveCandyCrush : IRestrictiveCandyCrush
     {
 		public RestrictiveCandyCrush(){}
     }

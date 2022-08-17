@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class RemoveAGivenCharacterFromString
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IRemoveAGivenCharacterFromString interface
+     ***************************************************************************************************************************************************/
+    public interface IRemoveAGivenCharacterFromString
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the IRemoveAGivenCharacterFromString interface
+     ***************************************************************************************************************************************************/
+    public class RemoveAGivenCharacterFromString : IRemoveAGivenCharacterFromString
     {
 		public RemoveAGivenCharacterFromString(){}
     }

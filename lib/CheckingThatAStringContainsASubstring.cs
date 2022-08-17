@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class CheckingThatAStringContainsASubstring
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the ICheckingThatAStringContainsASubstring interface
+     ***************************************************************************************************************************************************/
+    public interface ICheckingThatAStringContainsASubstring
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the ICheckingThatAStringContainsASubstring interface
+     ***************************************************************************************************************************************************/
+    public class CheckingThatAStringContainsASubstring : ICheckingThatAStringContainsASubstring
     {
 		public CheckingThatAStringContainsASubstring(){}
     }

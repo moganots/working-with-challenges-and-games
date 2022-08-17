@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class EditDistance
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IEditDistance interface
+     ***************************************************************************************************************************************************/
+    public interface IEditDistance
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the IEditDistance interface
+     ***************************************************************************************************************************************************/
+    public class EditDistance : IEditDistance
     {
 		public EditDistance(){}
     }

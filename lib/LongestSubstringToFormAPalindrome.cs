@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class LongestSubstringToFormAPalindrome
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the ILongestSubstringToFormAPalindrome interface
+     ***************************************************************************************************************************************************/
+    public interface ILongestSubstringToFormAPalindrome
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the ILongestSubstringToFormAPalindrome interface
+     ***************************************************************************************************************************************************/
+    public class LongestSubstringToFormAPalindrome : ILongestSubstringToFormAPalindrome
     {
 		public LongestSubstringToFormAPalindrome(){}
     }

@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class CheckIfTwoStringsAreARotationOfEachOther
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the ICheckIfTwoStringsAreARotationOfEachOther interface
+     ***************************************************************************************************************************************************/
+    public interface ICheckIfTwoStringsAreARotationOfEachOther
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the ICheckIfTwoStringsAreARotationOfEachOther interface
+     ***************************************************************************************************************************************************/
+    public class CheckIfTwoStringsAreARotationOfEachOther : ICheckIfTwoStringsAreARotationOfEachOther
     {
 		public CheckIfTwoStringsAreARotationOfEachOther(){}
     }

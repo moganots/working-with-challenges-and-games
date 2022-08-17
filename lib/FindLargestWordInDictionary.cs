@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class FindLargestWordInDictionary
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IFindLargestWordInDictionary interface
+     ***************************************************************************************************************************************************/
+    public interface IFindLargestWordInDictionary
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the IFindLargestWordInDictionary interface
+     ***************************************************************************************************************************************************/
+    public class FindLargestWordInDictionary : IFindLargestWordInDictionary
     {
 		public FindLargestWordInDictionary(){}
     }

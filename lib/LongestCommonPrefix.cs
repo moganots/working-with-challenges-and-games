@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class LongestCommonPrefix
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the ILongestCommonPrefix interface
+     ***************************************************************************************************************************************************/
+    public interface ILongestCommonPrefix
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the ILongestCommonPrefix interface
+     ***************************************************************************************************************************************************/
+    public class LongestCommonPrefix : ILongestCommonPrefix
     {
 		public LongestCommonPrefix(){}
     }

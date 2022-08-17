@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class LengthOfLongestPrefixSuffix
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the ILengthOfLongestPrefixSuffix interface
+     ***************************************************************************************************************************************************/
+    public interface ILengthOfLongestPrefixSuffix
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the ILengthOfLongestPrefixSuffix interface
+     ***************************************************************************************************************************************************/
+    public class LengthOfLongestPrefixSuffix : ILengthOfLongestPrefixSuffix
     {
 		public LengthOfLongestPrefixSuffix(){}
     }

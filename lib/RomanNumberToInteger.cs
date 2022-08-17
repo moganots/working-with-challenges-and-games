@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class RomanNumberToInteger
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IRomanNumberToInteger interface
+     ***************************************************************************************************************************************************/
+    public interface IRomanNumberToInteger
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the IRomanNumberToInteger interface
+     ***************************************************************************************************************************************************/
+    public class RomanNumberToInteger : IRomanNumberToInteger
     {
 		public RomanNumberToInteger(){}
     }

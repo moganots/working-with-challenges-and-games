@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class LongestKUniqueCharactersSubstring
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the ILongestKUniqueCharactersSubstring interface
+     ***************************************************************************************************************************************************/
+    public interface ILongestKUniqueCharactersSubstring
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the ILongestKUniqueCharactersSubstring interface
+     ***************************************************************************************************************************************************/
+    public class LongestKUniqueCharactersSubstring : ILongestKUniqueCharactersSubstring
     {
 		public LongestKUniqueCharactersSubstring(){}
     }

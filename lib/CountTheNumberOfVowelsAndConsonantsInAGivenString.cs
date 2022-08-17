@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class CountTheNumberOfVowelsAndConsonantsInAGivenString
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the ICountTheNumberOfVowelsAndConsonantsInAGivenString interface
+     ***************************************************************************************************************************************************/
+    public interface ICountTheNumberOfVowelsAndConsonantsInAGivenString
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the ICountTheNumberOfVowelsAndConsonantsInAGivenString interface
+     ***************************************************************************************************************************************************/
+    public class CountTheNumberOfVowelsAndConsonantsInAGivenString : ICountTheNumberOfVowelsAndConsonantsInAGivenString
     {
 		public CountTheNumberOfVowelsAndConsonantsInAGivenString(){}
     }

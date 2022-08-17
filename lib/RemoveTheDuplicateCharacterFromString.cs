@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class RemoveTheDuplicateCharacterFromString
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IRemoveTheDuplicateCharacterFromString interface
+     ***************************************************************************************************************************************************/
+    public interface IRemoveTheDuplicateCharacterFromString
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the IRemoveTheDuplicateCharacterFromString interface
+     ***************************************************************************************************************************************************/
+    public class RemoveTheDuplicateCharacterFromString : IRemoveTheDuplicateCharacterFromString
     {
 		public RemoveTheDuplicateCharacterFromString(){}
     }

@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class ShortestCommonSupersequence
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IShortestCommonSupersequence interface
+     ***************************************************************************************************************************************************/
+    public interface IShortestCommonSupersequence
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the IShortestCommonSupersequence interface
+     ***************************************************************************************************************************************************/
+    public class ShortestCommonSupersequence : IShortestCommonSupersequence
     {
 		public ShortestCommonSupersequence(){}
     }

@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class RankThePermutation
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IRankThePermutation interface
+     ***************************************************************************************************************************************************/
+    public interface IRankThePermutation
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the IRankThePermutation interface
+     ***************************************************************************************************************************************************/
+    public class RankThePermutation : IRankThePermutation
     {
 		public RankThePermutation(){}
     }

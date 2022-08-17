@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class MinimumDeletions
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IMinimumDeletions interface
+     ***************************************************************************************************************************************************/
+    public interface IMinimumDeletions
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the IMinimumDeletions interface
+     ***************************************************************************************************************************************************/
+    public class MinimumDeletions : IMinimumDeletions
     {
 		public MinimumDeletions(){}
     }

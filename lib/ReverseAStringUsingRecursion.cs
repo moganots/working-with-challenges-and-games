@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class ReverseAStringUsingRecursion
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IReverseAStringUsingRecursion interface
+     ***************************************************************************************************************************************************/
+    public interface IReverseAStringUsingRecursion
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the IReverseAStringUsingRecursion interface
+     ***************************************************************************************************************************************************/
+    public class ReverseAStringUsingRecursion : IReverseAStringUsingRecursion
     {
 		public ReverseAStringUsingRecursion(){}
     }

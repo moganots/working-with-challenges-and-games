@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class IntegerToRoman
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IIntegerToRoman interface
+     ***************************************************************************************************************************************************/
+    public interface IIntegerToRoman
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the IIntegerToRoman interface
+     ***************************************************************************************************************************************************/
+    public class IntegerToRoman : IIntegerToRoman
     {
 		public IntegerToRoman(){}
     }

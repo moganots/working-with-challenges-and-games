@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class AddBinaryStrings
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IAddBinaryStrings interface
+     ***************************************************************************************************************************************************/
+    public interface IAddBinaryStrings
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the IAddBinaryStrings interface
+     ***************************************************************************************************************************************************/
+    public class AddBinaryStrings : IAddBinaryStrings
     {
 		public AddBinaryStrings(){}
     }

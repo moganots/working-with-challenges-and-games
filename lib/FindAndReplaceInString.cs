@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class FindAndReplaceInString
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the IFindAndReplaceInString interface
+     ***************************************************************************************************************************************************/
+    public interface IFindAndReplaceInString
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the IFindAndReplaceInString interface
+     ***************************************************************************************************************************************************/
+    public class FindAndReplaceInString : IFindAndReplaceInString
     {
 		public FindAndReplaceInString(){}
     }

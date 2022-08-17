@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class CountNumberOfSubstrings
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the ICountNumberOfSubstrings interface
+     ***************************************************************************************************************************************************/
+    public interface ICountNumberOfSubstrings
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the ICountNumberOfSubstrings interface
+     ***************************************************************************************************************************************************/
+    public class CountNumberOfSubstrings : ICountNumberOfSubstrings
     {
 		public CountNumberOfSubstrings(){}
     }

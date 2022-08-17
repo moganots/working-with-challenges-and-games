@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class CountingDuplicateCharacters
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the ICountingDuplicateCharacters interface
+     ***************************************************************************************************************************************************/
+    public interface ICountingDuplicateCharacters
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the ICountingDuplicateCharacters interface
+     ***************************************************************************************************************************************************/
+    public class CountingDuplicateCharacters : ICountingDuplicateCharacters
     {
 		public CountingDuplicateCharacters(){}
     }

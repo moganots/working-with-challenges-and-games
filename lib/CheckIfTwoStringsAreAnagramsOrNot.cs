@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class CheckIfTwoStringsAreAnagramsOrNot
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the ICheckIfTwoStringsAreAnagramsOrNot interface
+     ***************************************************************************************************************************************************/
+    public interface ICheckIfTwoStringsAreAnagramsOrNot
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the ICheckIfTwoStringsAreAnagramsOrNot interface
+     ***************************************************************************************************************************************************/
+    public class CheckIfTwoStringsAreAnagramsOrNot : ICheckIfTwoStringsAreAnagramsOrNot
     {
 		public CheckIfTwoStringsAreAnagramsOrNot(){}
     }

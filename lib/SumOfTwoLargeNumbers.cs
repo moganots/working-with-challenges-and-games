@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class SumOfTwoLargeNumbers
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the ISumOfTwoLargeNumbers interface
+     ***************************************************************************************************************************************************/
+    public interface ISumOfTwoLargeNumbers
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the ISumOfTwoLargeNumbers interface
+     ***************************************************************************************************************************************************/
+    public class SumOfTwoLargeNumbers : ISumOfTwoLargeNumbers
     {
 		public SumOfTwoLargeNumbers(){}
     }

@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class NumberOfDistinctSubsequences
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the INumberOfDistinctSubsequences interface
+     ***************************************************************************************************************************************************/
+    public interface INumberOfDistinctSubsequences
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the INumberOfDistinctSubsequences interface
+     ***************************************************************************************************************************************************/
+    public class NumberOfDistinctSubsequences : INumberOfDistinctSubsequences
     {
 		public NumberOfDistinctSubsequences(){}
     }

@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class SearchPatternKmpAlgorithm
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the ISearchPatternKmpAlgorithm interface
+     ***************************************************************************************************************************************************/
+    public interface ISearchPatternKmpAlgorithm
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the ISearchPatternKmpAlgorithm interface
+     ***************************************************************************************************************************************************/
+    public class SearchPatternKmpAlgorithm : ISearchPatternKmpAlgorithm
     {
 		public SearchPatternKmpAlgorithm(){}
     }

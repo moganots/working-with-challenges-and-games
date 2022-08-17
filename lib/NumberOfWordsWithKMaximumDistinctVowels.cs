@@ -6,10 +6,18 @@ using System.Text.RegularExpressions;
 
 namespace lib
 {
-    /***********************************************************************************************
-     * ToDo: Description
-     ***********************************************************************************************/
-    public class NumberOfWordsWithKMaximumDistinctVowels
+    /***************************************************************************************************************************************************
+     * Defines the contract containing the declarations of methods, properties, indexers, and events for the INumberOfWordsWithKMaximumDistinctVowels interface
+     ***************************************************************************************************************************************************/
+    public interface INumberOfWordsWithKMaximumDistinctVowels
+    {
+
+    }
+
+    /***************************************************************************************************************************************************
+     * Provides implementation(s) for the methods, properties, indexers, and events for the INumberOfWordsWithKMaximumDistinctVowels interface
+     ***************************************************************************************************************************************************/
+    public class NumberOfWordsWithKMaximumDistinctVowels : INumberOfWordsWithKMaximumDistinctVowels
     {
 		public NumberOfWordsWithKMaximumDistinctVowels(){}
     }
